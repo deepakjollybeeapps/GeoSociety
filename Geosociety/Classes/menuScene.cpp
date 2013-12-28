@@ -2022,9 +2022,10 @@ void menuLayer::scriptProgress()
         
 	} else if( ((CCString*)scriptToExecute->objectAtIndex(0)->isEqual(CCString::create("Change Weather"))))
     {
+        
         //CHANGED_DEEPAK
-//		snowEmitter->resetSystem();
-//		snowEmitter->stopSystem();
+		snowEmitter->resetSystem();
+		snowEmitter->stopSystem();
 		
 //        weather->release();
         weather = NULL;
